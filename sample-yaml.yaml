@@ -1,4 +1,3 @@
----
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
@@ -7,5 +6,4 @@ spec:
   params:
     - name: source-repo
       type: string
-      description: Source code repository
-      
+      description: Source code repository      
