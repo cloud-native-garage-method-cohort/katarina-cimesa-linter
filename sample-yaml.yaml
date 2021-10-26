@@ -1,0 +1,9 @@
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: linter-pipeline
+  spec:
+  params:
+    - name: source-repo
+      type: string
+      description: Source code repository
