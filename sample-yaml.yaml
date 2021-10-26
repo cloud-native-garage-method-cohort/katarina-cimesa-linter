@@ -3,7 +3,7 @@ apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
   name: linter-pipeline
-  spec:
+spec:
   params:
     - name: source-repo
       type: string
