@@ -1,3 +1,4 @@
+---
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
@@ -7,3 +8,4 @@ metadata:
     - name: source-repo
       type: string
       description: Source code repository
+      
